@@ -1,0 +1,19 @@
+{
+  "name": "training_material_app",
+  "version": "1.0.0",
+  "description": "app for training",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "training",
+    "app"
+  ],
+  "author": "rkondala",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "validator": "^12.2.0"
+  }
+}
