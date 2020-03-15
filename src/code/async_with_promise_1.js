@@ -1,8 +1,6 @@
 
-
-// Troubleshoot later
 function sleep(cb, ms) {
-  return new Promise((cb) => setTimeout(cb, ms));
+  return new Promise((resolve) => resolve (setTimeout(()=> cb(), ms)));
 }
 
 async function delayedGreeting() {
@@ -17,3 +15,8 @@ function myfun() {
 
 delayedGreeting();
 console.log("Goodbye!");
+
+// Hello
+// Goodbye!
+// World!
+// whatever
