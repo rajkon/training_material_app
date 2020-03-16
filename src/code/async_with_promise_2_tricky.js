@@ -18,6 +18,15 @@ function myfun() {
 delayedGreeting();
 console.log("Goodbye!");
 
+
+
+
+
+
+
+
+
+
 // Hello
 // whatever  //myfun() will execute the function before 1000 millisecond timeout
 // Goodbye!

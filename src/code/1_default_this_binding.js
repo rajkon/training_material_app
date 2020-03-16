@@ -1,10 +1,10 @@
 //https://medium.com/tech-tajawal/javascript-this-4-rules-7354abdb274c
 
 var myFunction1 = function() {
-    console.log(this.name);
- }
+    console.log(this);
+}
  
- //myFunction1();    // Object [global] {...} or Window in browser
+ myFunction1();    // Object [global] {...} or [object Window]  in browser
 
  //-- Example 2
  var myFunction2 = function() {

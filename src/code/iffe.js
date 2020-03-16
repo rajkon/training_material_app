@@ -1,5 +1,4 @@
-
-
+//IFFE (Immediately Invoked Function Expression)
 (function foo(i) {
     if (i === 3) {
         return;

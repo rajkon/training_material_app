@@ -12,4 +12,6 @@ function createUserWithAccounts(username, accounts) {
 
 let user = new createUserWithAccounts('raj kondala', ['savings', 'checking', 'mortage']);
 user.list_accounts();
+
+console.log(typeof createUserWithAccounts); //prints function
 console.log(this.list_accounts) //undefined
