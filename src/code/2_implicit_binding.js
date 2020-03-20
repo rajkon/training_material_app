@@ -4,10 +4,10 @@ function foo(){
 
 var obj = {
 	a:2,
-	foo:foo
+	fooFunc:foo
 };
 
-obj.foo();  // 2 
+obj.fooFunc();  // 2 //implicit binding
 
 
 //--------- Object Literal ( generally used for singleton)
@@ -20,7 +20,7 @@ let user = {
 
 user.greet("Mark");  // Hi Mark, my name is John
 
-let fx = user.greet;
+let fx = guser.reet;
 fx("Mark");   // Hi Mark, my name is
 // fx will be a reference to the greet function itself 
 // so the default binding applies and this will refer to Window.

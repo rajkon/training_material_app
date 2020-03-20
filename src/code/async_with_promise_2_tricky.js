@@ -1,5 +1,4 @@
 
-
 //note the error in the sleep function  -> cb is undefined in this example. 
 function sleep(cb, ms) {
   return new Promise((resolve) => resolve (setTimeout(()=> cb, ms)));

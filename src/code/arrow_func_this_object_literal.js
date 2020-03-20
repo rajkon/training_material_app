@@ -6,14 +6,14 @@ const event = {
     printGuestList() {
         console.log('Guest list for ' + this.name)
         this.guestList.forEach((guest) => {
-            console.log(guest + ' is attending ' + this.name) //prints fine
+            console.log(guest + ' is attending ' + this.name) //prints fine 
         })
     }
 }
 event.printGuestList();
 
 
-//Example of 'this' within object with arrow function.
+//Example of 'this' within object literal with arrow function.
 const event2 = {
     name: 'Birthday Party',
     guestList: ['Andrew', 'Jen', 'Mike'],
@@ -27,6 +27,7 @@ const event2 = {
     }
 }
 event.printGuestList();
+console.log('-------------------------using this in object literal-------------')
 event2.printGuestList2();
 console.log(typeof event2); //object
 

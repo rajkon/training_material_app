@@ -3,7 +3,7 @@ function createUserWithAccounts(username, accounts) {
     this.given_name = username;
     this.list_accounts = function () {
         accounts.map(function (a) {
-            console.log(this.given_name);  //prints undefined because this is global
+            console.log(this.given_name);  //prints undefined because 'this' is global
             console.log(a);
             console.log("---------");
         });

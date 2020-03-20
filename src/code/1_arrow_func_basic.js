@@ -1,5 +1,10 @@
 
 
+//before ES-6
+function printAll() {
+    //Do something
+}
+
 //Example of Arrow function - with flower braces.
 const cubeFunc = (num) => {
     return num * num * num;

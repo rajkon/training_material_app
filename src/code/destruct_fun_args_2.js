@@ -25,7 +25,7 @@ console.log("-------- Passing destuctured parameters ------------");
 const transaction2 = (type, { label, stock = 0 } = {}) => {
     console.log(type, label, stock)
 }
-transaction2('order2');  // lable will be unefined, stock should be 0
+transaction2('order2');  // label will be unefined, stock should be 0
 transaction2('order2', product); // lable will be Red-notebook, stock will be 201
 
 //Expected output:
